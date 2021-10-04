@@ -94,7 +94,7 @@ function actualiser() {
       const data = response.data;
       console.log(data);
 
-      for (var i = 0; i<3; i++){
+      for (var i = 1; i<4; i++){
         const tomorrow_main = data.list[i].weather[0].main;
         const tomorrow_description = data.list[i].weather[0].description;
         const tomorrow_temp = data.list[i].main.temp;
